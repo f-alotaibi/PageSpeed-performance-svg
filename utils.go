@@ -34,11 +34,11 @@ func GetSVG(url string) string {
 	intPercentage := int(math.Round(percentage * 100))
 	textColor := "#080" // Good
 	percentageColor := "#0cce6a"
-	if intPercentage <= 30 {
-		textColor = "#c00" // Bad
+	if intPercentage < 50 {
+		textColor = "#c00" // Red
 		percentageColor = "#ff4e43"
-	} else if intPercentage <= 60 {
-		textColor = "#C33300" // Medium
+	} else if intPercentage < 90 {
+		textColor = "#C33300" // Orange
 		percentageColor = "#ffa400"
 	}
 	return svgStringFunc(fmt.Sprintf("%d", intPercentage), textColor, percentageColor, fmt.Sprintf("%fpx", circlePercentage))
