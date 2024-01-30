@@ -7,5 +7,5 @@ Running instance is at https://pagespeed-performance.onrender.com
 # Test, should give you the performace of this page
 
 <picture>
-    <img src="https://pagespeed-performance.onrender.com/svg?url=https://github.com/f-alotaibi/PageSpeed-performance-svg/" alt="Website test" width="100" height="18px" align="left">
+    <img src="https://pagespeed-performance.onrender.com/svg?url=https://github.com/f-alotaibi/PageSpeed-performance-svg/" alt="Website test" width="128px" height="128px" align="left">
 </picture>
